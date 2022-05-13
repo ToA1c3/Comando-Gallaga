@@ -43,18 +43,18 @@ for side in range (4):
 borde.hideturtle()
 
 #cuerpos
-#turtle.register_shape("python/gallina.png")
+turtle.register_shape("gallina6.gif")
 
 #jugador/gallaga
 player=turtle.Turtle()
-#player.shape("python/gallina.png")
-player.color("white")
-player.shape("square")
+player.shape("gallina6.gif")
+#player.color("white")
+#player.shape("square")
 player.up()
 player.speed(0)
 player.setposition(0,-180)
 player.setheading(90)
-player.shapesize(2,2)
+player.shapesize(0.2,0.2)
 
 #Puntuacion
 score=0
